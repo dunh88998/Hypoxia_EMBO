@@ -10,8 +10,8 @@ library(clusterProfiler)
 library(harmony)
 
 # Read barcodes, features(genes) and matrix files
-Denver_raw<-Read10X(data.dir="//data.ucdenver.pvt/dept/SOM/CARD/CARD/KopeckyShared/Hao/Single Cell/new single cell project/Denver_raw")
-Sea_level_raw<-Read10X(data.dir = "//data.ucdenver.pvt/dept/SOM/CARD/CARD/KopeckyShared/Hao/Single Cell/new single cell project/Sea_level_raw")
+Denver_raw<-Read10X(data.dir="Denver_raw")
+Sea_level_raw<-Read10X(data.dir = "Sea_level_raw")
 gc()
 
 #Create Seurat Objects
